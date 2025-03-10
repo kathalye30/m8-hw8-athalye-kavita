@@ -48,7 +48,7 @@ header a {
   color: var(--off-white);
   animation-name: headeranimation;
   animation-duration: 2s;
-  animation-iteration-count: 1;
+  animation-iteration-count: infinite;
   animation-play-state: paused;
 }
 
