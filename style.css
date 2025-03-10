@@ -50,6 +50,7 @@ header a {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-play-state: paused;
+  animation-fill-mode: forwards;
 }
 
 header a:hover {
@@ -61,6 +62,11 @@ header a:hover {
 /* article link transitions */
 main a {
   color: var(--danger-color);
+  transition: all 0.2s linear;
+}
+
+main a:hover {
+  color:#06b3bc;
 }
 /* end article link transitions */
 
