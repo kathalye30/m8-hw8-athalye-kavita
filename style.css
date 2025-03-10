@@ -50,7 +50,8 @@ header a {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-play-state: paused;
-  animation-fill-mode: forwards;
+  animation-delay: 0.2s;
+  animation-fill-mode: backwards;
 }
 
 header a:hover {
@@ -71,6 +72,8 @@ main a {
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-play-state: paused;
+  animation-delay: 0.2s;
+  animation-fill-mode: backwards;
 }
 
 main a:hover {
