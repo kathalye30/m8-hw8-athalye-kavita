@@ -60,13 +60,21 @@ header a:hover {
 /* end header link animations */
 
 /* article link transitions */
+
+@keyframes linkanimation {
+  from {background-color: var(--white);}
+  to {background-color: yellow;}
+}
 main a {
   color: var(--danger-color);
-  transition: all 0.2s linear;
+  animation-name: linkanimation;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
 }
 
 main a:hover {
-  background-color:yellow;
+  animation-play-state: running;
 }
 /* end article link transitions */
 
