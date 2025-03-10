@@ -116,8 +116,13 @@ section.hero > button {
   border-radius: 12px;
   text-transform: uppercase;
   cursor: pointer;
+  transition: width 2s;
 }
 
+section.hero > button:hover {
+width: 300px;
+
+}
 main article {
   padding: 48px 96px;
 }
