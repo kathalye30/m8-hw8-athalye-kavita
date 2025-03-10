@@ -69,7 +69,7 @@ main a {
   color: var(--danger-color);
   animation-name: linkanimation;
   animation-duration: 0.5s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-play-state: paused;
 }
 
