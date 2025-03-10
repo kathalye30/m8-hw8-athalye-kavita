@@ -46,6 +46,8 @@ header a {
   font-size: 1.5rem;
   color: var(--off-white);
   animation-name: headeranimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 /* end header link animations */
 
