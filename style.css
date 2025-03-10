@@ -42,7 +42,7 @@ header {
   to {color: orange;}
   
 }
-header a {
+header a:hover {
   font-size: 1.5rem;
   color: var(--off-white);
   animation-name: headeranimation;
