@@ -38,19 +38,14 @@ header {
 /* header link animations! */
 
 @keyframes headeranimation {
-  0%   {background-color: rgb(253, 233, 175);}
-  25%  {background-color: rgb(255, 212, 131);}
-  50%  {background-color: rgb(255, 196, 87);}
-  100% {background-color: orange;}
+  from {color: var(--off-white);}
+  to {color: orange;}
   
 }
 header a {
   font-size: 1.5rem;
   color: var(--off-white);
   animation-name: headeranimation;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-
 }
 /* end header link animations */
 
