@@ -42,16 +42,20 @@ header {
   to {color: orange;}
   
 }
+
 header a {
   font-size: 1.5rem;
   color: var(--off-white);
-}
-
-header a:hover {
   animation-name: headeranimation;
   animation-duration: 2s;
   animation-iteration-count: 1;
+  animation-play-state: paused;
 }
+
+header a:hover {
+  animation-play-state: running;
+}
+
 /* end header link animations */
 
 /* article link transitions */
